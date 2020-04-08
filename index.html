@@ -1,449 +1,875 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+   
 
 </head>
 
-<body>
+<body class="homepage">
 
-  <div id="home">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand  mb-0 h1" href="#home">Start Bootstrap</a>
-        <button class="navbar-toggler botn " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "> </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#expr">services <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cat">protfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#thread">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#expr">team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">contact</a>
-            </li>
-
-          </ul>
-        </div>
+   <div id="preloader"> 
+	   <div id="status">
+         <img src="images/loader.gif" height="60" width="60" alt="">
+         <div class="loader">Loading...</div>
       </div>
-    </nav>
-    <div class="cap d-flex flex-column justify-content-center align-items-center">
-      <p>Welcome To Our Studio</p>
-     <h1>IT'S NICE TO MEET YOU |</h1>
+   </div>
+   
+
+   <header id="main-header">
+
+   	<div class="row header-inner">
+
+	      <div class="logo">
+	         <a class="smoothscroll" href="#hero">Puremedia.</a>
+	      </div>
+
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class='menu-text'>Show Menu</span>
+	         	<span class="menu-icon"></span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class='menu-text'>Hide Menu</span>
+         		<span class="menu-icon"></span>
+         	</a>         
+
+	         <ul id="nav" class="nav">
+	            <li class="current"><a class="smoothscroll" href="#hero">Home.</a></li>
+		         <li><a class="smoothscroll" href="#portfolio">Works.</a></li>
+	            <li><a class="smoothscroll" href="#services">Services.</a></li>
+	            <li><a class="smoothscroll" href="#about">About.</a></li>
+	            <li><a class="smoothscroll" href="#journal">Blog.</a></li>	            
+	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
+	         </ul> 
+
+	      </nav>       
+
+	   </div> 
+
+   </header> 
+
+
+   <section id="hero">	
+   	  
+		<div class="row hero-content">
+
+			<div class="twelve columns flex-container">
+
+			   <div id="hero-slider" class="flexslider">
+
+				   <ul class="slides">
+
+					   <li>
+						   <div class="flex-caption">
+								<h1>Hello, we are puremedia. We make awesome and stunning digital stuff.</h1>	
+								<p><a class="button stroke smoothscroll" href="#about">More About Us</a></p>																   
+							</div>						
+					   </li>
+
+					  
+					   <li>						
+							<div class="flex-caption">
+								<h1 >We imagine, craft and manage your brand in this new digital world.</h1>	
+								<p><a class="button stroke smoothscroll" href="#portfolio">See Our Works</a></p>									   
+							</div>					
+					   </li>
+
+					   
+					   <li>
+						   <div class="flex-caption">
+								<h1 >Take a look at some of <a class="smoothscroll" href="#portfolio" title="">our works</a> or <a class="smoothscroll" href="#contact" title="">contact us</a> to discuss how we can help you.</h1>
+								<p><a class="button stroke smoothscroll" href="#contact">Get In Touch</a></p>										   
+							</div>
+					   </li>					              
+
+				   </ul>
+
+			   </div> 			   
+
+	      </div>       
+
+		</div> 	   
+
+   </section> 
+
+
+   
+   <section id="portfolio">
+
+      <div class="row section-head">
+
+      	<div class="twelve columns">
+
+	         <h1>Our Latest Works<span>.</span></h1>
+
+	         <hr />
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
+
+      </div>
+
+      <div class="row items">
+
+      	<div class="twelve columns">
+
+            <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
+
+          	   <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                        <img src="images/portfolio/grizzly.jpg" alt="Grizzly">
+                        <div class="overlay"></div>                       
+                        <div class="portfolio-item-meta">
+          					      <h5>Grizzly</h5>
+                              <p>Photography</p>
+          					</div>                         
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                        <img src="images/portfolio/hotel.jpg" alt="Hotel Sign">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Hotel Sign</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>                        
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid stack item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                        <img src="images/portfolio/beetle.jpg" alt="Beetle">                        
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Beetle</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>                        
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                        <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Banjo Player</h5>
+                              <p>Videography</p>
+          					   </div>
+                        </div>                       
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                     	<img src="images/portfolio/coffee.jpg" alt="Coffee Cup">
+                       	<div class="overlay">
+                       		<div class="portfolio-item-meta">
+          					      <h5>Coffee Cup</h5>
+                              <p>Photography</p>
+          					   </div>
+                       	</div>                        
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                        <img src="images/portfolio/farmerboy.jpg" alt="Farmerboy">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Farmerboy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>                        
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">                        
+                        <img src="images/portfolio/judah.jpg" alt="Judah">                       
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Judah</h5>
+                              <p>Web Design</p>
+          					   </div>
+                        </div>                        
+                     </a>
+
+                  </div>
+          		</div> 
+
+               <div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.html">
+                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Embossed Paper</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>                                                
+                     </a>                   
+
+                  </div>
+          		</div>  
+
+            </div> 
+
+         </div>
+
+      </div>  
+      
+   </section> 
+
+
+  
+   <section id="services">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Our Awesome Services<span>.</span></h1>
+
+	         <hr />
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+         </div>
+
+      </div>
+
+      <div class="row">
+
+      	<div class="twelve columns">
+
+	      	<div class="service-list bgrid-third s-bgrid-half mob-bgrid-whole">
+
+	      		<div class="bgrid">
+
+	               <div class="icon-part">
+	               	<span class="icon-graph"></span>
+	               </div>
+
+	               <h3>Marketing.</h3>
+
+	               <div class="service-content">	                  
+		               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	         			</p> 
+	               </div>      
+
+	            </div> 
+
+				   <div class="bgrid">
+
+	              	<div class="icon-part">
+	               	<i class="icon-film"></i>
+	               </div>
+
+	               <h3>Videography.</h3>                  
+
+	               <div class="service-content">	                  
+		               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventoveritatis et quasi architecto beatae vitae dicta sunt explicabo.
+	         			</p> 
+	               </div>                                 
+
+	            </div> 
+
+				   <div class="bgrid">
+
+	              	<div class="icon-part">	               	
+	               	<i class="icon-camera"></i>
+	               </div>
+
+	               <h3>Photography.</h3>
+
+	               <div class="service-content">		                  
+		               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	         			</p> 
+	               </div>                               
+
+	            </div> 
+
+				   <div class="bgrid first">
+
+	              	<div class="icon-part">
+	               	<i class="icon-eye"></i>	               	
+	               </div>
+	                  
+	               <h3>Branding.</h3> 
+
+	               <div class="service-content">	                  
+		               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	         			</p> 
+	               </div>                                 
+
+	            </div> 
+
+				   <div class="bgrid">
+
+	              	<div class="icon-part">
+	               	<i class="icon-screen-desktop"></i>
+	               </div>
+	                  
+	               <h3>Web Design.</h3>
+
+	               <div class="service-content">	                  
+		               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	         			</p> 
+	               </div>                                 
+
+	             </div> 
+
+				   <div class="bgrid">
+
+	               <div class="icon-part">
+	               	<i class="icon-eyeglasses"></i>
+	               </div>
+
+	               <h3>Web Development.</h3>
+
+	               <div class="service-content">
+		               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	         			</p> 
+	               </div>                              
+
+	            </div> 
+
+	      	</div>
+
+	      </div> 
+
+      </div>     
+
+   </section>  
+
+
+  
+   <section id="about">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Who Are We<span>.</span></h1>
+
+	         <hr />
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
+
+      </div>
+
+      <div class="row about-content"> 
+
+      	<div class="mob-whole six columns left">
+
+      		<h3>Our Process.</h3>	
+
+	      	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+      	</div> 
+
+      	<div class="mob-whole six columns right">
+
+	      	<h3>Our Approach.</h3>
+
+	      	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>	
+
+      	</div> 
+
+      </div>    
+
+      <div class="row about-content"> 
+
+      	<div class="mob-whole six columns left">
+
+	      	<h3>Our Goal.</h3>	
+
+	      	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+      	</div> 
+
+      	<div class="mob-whole six columns right">
+
+	      	<h3>Our Mission.</h3>
+
+	      	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>	
+
+      	</div>
+
+      </div> 
+
+
      
-      <button type="button" class="btn btn-warning btn-lg">TELL ME MORE</button>
+   	<div id='team'>
 
-    </div>
-  </div>
+	      <div class="row team section-head">
 
-  <div id="expr" class=" my-5">
-    <div class="container py-5 text-center">
-      <h2 class="pt-5 pb-3">Experience Advisors </h2>
-      <p class="pt-2 pb-5 ">Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay
-        own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man
-        led. Along on happy could cease green oh. </p>
+	   		<div class="twelve columns">
+
+		         <h1>Our Rockstar Team<span>.</span></h1>
+
+		         <hr />
+
+		         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+		         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+		         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		         </p>	         
+
+		      </div>
+
+	      </div>
+
+      	<div class="row about-content">
+
+      		<div class="twelve columns">
+
+		         <div id="team-wrapper" class="bgrid-half mob-bgrid-whole group">
+
+		            <div class="bgrid member">
+
+		               <div class="member-header">
+
+		                 	<div class="member-pic">
+									<img src="images/team/member01-k.jpg" alt=""/>                        	                       	
+		                 	</div>
+
+		                  <div class="member-name">
+		                     <h3>Naruto Uzumaki</h3>
+		                     <span>Creative Director</span>
+		                  </div>
+
+		               </div>							
+
+		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+		               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+		               <ul class="member-social">
+		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+		               </ul>
+
+		          	</div>
+
+		            <div class="bgrid member">
+
+		              	<div class="member-header">
+										
+								<div class="member-pic">
+		                 		<img src="images/team/member02-k.jpg" alt=""/>                        	
+		                	</div>
+		                
+		                	<div class="member-name">
+		                   	<h3>Sasuke Uchiha</h3>
+		                   	<span>Lead Designer</span>
+		                	</div>
+
+		               </div>
+
+		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+		               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+		               <ul class="member-social">
+		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+		               </ul>
+
+		       		</div> 
+
+		            <div class="bgrid member first">
+
+							<div class="member-header">
+							
+								<div class="member-pic">
+		                		<img src="images/team/member03-k.jpg" alt=""/>                        	
+		               	</div>
+
+		               	<div class="member-name">
+		                  	<h3>Sakura Haruno</h3>
+		                  	<span>Web Designer</span>
+		               	</div>
+
+							</div>
+
+		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+		               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+		               <ul class="member-social">
+		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+		               </ul>
+
+		      		</div> 
+
+		            <div class="bgrid member">
+
+		            	<div class="member-header">
+										
+								<div class="member-pic">
+									<img src="images/team/member04-k.jpg" alt=""/>                        	                        	
+		                 	</div>
+
+		                  <div class="member-name">
+		                     <h3>Shikamaru Nara</h3>
+		                     <span>Web Designer</span>
+		                  </div>
+
+		               </div>
+
+		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+		                  nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+		               <ul class="member-social">
+		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+		               </ul>
+
+		            </div> 
+
+		         </div> 
+
+	         </div> 
+
+         </div> 
+
+      </div>           
+
+   </section> 
+
+
+  
+   <section id="journal">
+
+	   <div class="row section-head">
+
+	   	<div class="twelve columns">
+
+			   <h1>Our Latest Ramblings<span>.</span></h1>
+
+			   <hr />
+
+			   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+		       eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+		       voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		      </p>	         
+
+		    </div>
+
+	   </div>
 
       <div class="row">
-        <div class="col-md-4 l1">
-          <img class="img-fluid" src="img/advisors/3.jpg" alt="">
-          <div class="overlay1 d-flex flex-column justify-content-center align-items-center    ">
-            <h3>About John Babu </h3>
-            <p>great explorer of the truth, the master-builder of human happiness.</p>
-            <a href="#">Read More</a>
-          </div>
-          <div class="overlay2  d-flex flex-column justify-content-center align-items-center ">
-            <h3>Mridul Druva</h3>
-            <p>CREATIVE DEVELOPER</p>
-          </div>
-        </div>
-        <div class="col-md-4 l1">
-          <img class="img-fluid" src="img/advisors/5.jpg" alt="">
-          <div class="overlay1 d-flex flex-column justify-content-center align-items-center    ">
-            <h3>About John Babu </h3>
-            <p>great explorer of the truth, the master-builder of human happiness.</p>
-            <a href="#">Read More</a>
-          </div>
-          <div class="overlay2  d-flex flex-column justify-content-center align-items-center ">
-            <h3>Mridul Druva</h3>
-            <p>CREATIVE DEVELOPER</p>
-          </div>
-        </div>
-        <div class="col-md-4 l1">
-          <img class="img-fluid" src="img/advisors/1.jpg" alt="">
-          <div class="overlay1 d-flex flex-column justify-content-center align-items-center    ">
-            <h3>About John Babu </h3>
-            <p>great explorer of the truth, the master-builder of human happiness.</p>
-            <a href="#">Read More</a>
-          </div>
-          <div class="overlay2  d-flex flex-column justify-content-center align-items-center ">
-            <h3>Mridul Druva</h3>
-            <p>CREATIVE DEVELOPER</p>
-          </div>
-        </div>
+
+      	<div class="twelve columns">
+
+	         <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group">
+
+	            <article class="bgrid">
+						
+						<h5>September 2, 2014</h5>
+	               <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
+	                           
+	               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+	               isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+	               </p>
+	                        
+	            </article>
+
+	            <article class="bgrid">
+						
+						<h5>August 29, 2014</h5>
+	               <h3><a href="single.html">Natus error sit voluptatem accusantium.</a></h3>
+	                           
+	               <p>
+	               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+	               totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+	            	</p>
+	                        
+	            </article>
+
+	            <article class="bgrid">
+						
+						<h5>August 28, 2014</h5>	
+	               <h3><a href="single.html">Ut enim ad minim veniam quis nostrud</a></h3>
+	                           
+	               <p>
+	               Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+	               isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. 
+	            	</p>
+	                        
+	            </article>
+
+	            <article class="bgrid first">
+						
+						<h5>August 27, 2014</h5>
+	               <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
+	                           
+	               <p>
+	               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	               consequat.
+	            	</p>
+	                        
+	            </article>
+
+	            <article class="bgrid">
+						
+						<h5>August 25, 2014</h5>
+	               <h3><a href="single.html">Rerum dignissimos alias eligendi laudantium quod.</a></h3>
+	                           
+	               <p>
+	               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga distinctio natus ab sint 
+	               voluptate quos cumque assumenda ipsa cupiditate aperiam officiis recusandae nemo labore adipisci harum, 
+	               ea odio dolor. 
+	            	</p>
+	                        
+	            </article>
+
+	            <article class="bgrid">
+						
+						<h5>August 23, 2014</h5>
+	               <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
+	                           
+	               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt cumque, aut nam at, 
+	               doloremque repellat blanditiis quo accusantium, rerum dignissimos alias eligendi, laudantium quod. 
+	               Autem nihil explicabo ipsa magnam porro.
+	            	</p>
+	                        
+	            </article>                     
+
+	         </div> 
+
+	      </div> 
+
+      </div> 
+
+   </section> 
+
+   
+   
+   <section id="contact">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Get In Touch With Us<span>.</span></h1>
+
+	         <hr />
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
 
       </div>
 
+      <div class="row form-section">
+      	
+      	<div id="contact-form" class="twelve columns">
+
+            <form name="contactForm" id="contactForm" method="post" action="">
+
+      			<fieldset>
+
+                  <div class="row">
+
+	                  <div class="six columns mob-whole">
+	                  	<label for="contactFname">First Name <span class="required">*</span></label>	      						   
+	      					<input name="contactFname" type="text" id="contactFname" placeholder="First Name" value="" />	      					
+	                  </div>
+
+	                  <div class="six columns mob-whole">	
+	                  	<label for="contactLname">Last Name <span class="required">*</span></label>      						   
+	      					<input name="contactLname" type="text" id="contactLname" placeholder="Last Name" value="" />	      					
+	                  </div>	                        
+
+                  </div>
+
+                  <div class="row">
+
+	                  <div class="six columns mob-whole">	
+	                  	<label for="contactEmail">Email <span class="required">*</span></label>      						   
+	      					<input name="contactEmail" type="text" id="contactEmail" placeholder="Email" value="" />	      					
+	                  </div>
+
+	                  <div class="six columns mob-whole">	 
+	                  	<label for="contactSubject">Subject</label>     						   
+	      					<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />	      					
+	                  </div>
+
+                  </div>
+
+                  <div class="row">
+
+	                  <div class="twelve columns">
+	                     <label  for="contactMessage">Message <span class="required">*</span></label>
+	                     <textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" ></textarea>
+	                  </div>
+
+                  </div>
+
+                  <div>
+                     <button class="submit full-width">Send Message</button>
+                     <div id="image-loader">
+                        <img src="images/loader.gif" alt="" />
+                     </div>
+                  </div>
+
+      			</fieldset>
+      				
+      		</form> 
+
+           
+            <div id="message-warning"></div>
+            <div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br />
+    			</div>
+
+         </div>      	
+
+      </div>      
+
+   </section> 
 
 
-    </div>
-  </div>
-  <div id="cat">
-    <div class="container  text-center">
-      <div class="container d-flex flex-column justify-content-center  text-center col-md-8">
-        <h2 class="pt-5 pb-3">Top Categories</h2>
+   
+   <footer>
 
-        <p class="pb-5">Discourse assurance estimable applauded to so. Him everything melancholy uncommonly but
-          solicitude inhabiting
-          projection off. Connection stimulated estimating excellence an to impression.</p>
+      <div class="row">       
+
+         <div class="six columns tab-whole footer-about">
+				
+				<h3>About Puremedia</h3>
+               
+            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+            nibh id elit. 
+            </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+            	incididunt ut labore et dolore magna aliqua.</p>        
+
+         </div> 
+
+         <div class="six columns tab-whole right-cols">
+
+            <div class="row">
+
+               <div class="columns">
+                  <h3 class="address">Contact Us</h3>
+                  <p>
+                  1600 Amphitheatre Parkway<br>
+                  Mountain View, CA<br>
+                  94043 US
+                  </p>
+
+                  <ul>
+                    <li><a href="tel:6473438234">647.343.8234</a></li>
+                    <li><a href="tel:1234567890">123.456.7890</a></li>
+                    <li><a href="mailto:someone@puremedia.com">someone@puremedia.com</a></li>
+                  </ul>                  
+               </div>             
+
+               <div class="columns last">
+                  <h3 class="contact">Follow Us</h3>
+
+                  <ul>
+                     <li><a href="#">Facebook</a></li>
+                     <li><a href="#">Twitter</a></li>
+                     <li><a href="#">GooglePlus</a></li>
+                     <li><a href="#">Instagram</a></li>
+                     <li><a href="#">Flickr</a></li>
+                     <li><a href="#">Skype</a></li>
+                  </ul>
+                  
+               </div> 
+
+            </div> 
+
+         </div>
+
+         <p class="copyright">&copy; Copyright 2014 Puremedia. Design by <a href="http://www.styleshout.com/">Styleshout.</a></p>        
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
+         </div>
+
       </div>
 
+   </footer> 
 
 
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/1.jpg" alt="">
-          
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/2.jpg" alt="">
-
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/3.jpg" alt="">
-
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/4.jpg" alt="">
-
-        </div>
-      </div>
-      <div class="row py-4">
-
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/5.jpg" alt="">
-
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/6.jpg" alt="">
-
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/7.jpg" alt="">
-
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img class="img-fluid" src="img/category/8.jpg" alt="">
-
-        </div>
-      </div>
-      <div class="row py-5 ">
-
-
-
-        <div class="modal fade bd-example-modal-xl" id="exampleModal1" tabindex="-1" role="dialog"
-          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h2>PROJECT NAME </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-                <img src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <p>Date: January 2017</p>
-                <p>Client: Explore</p>
-                <p>Category: Graphic Design</p>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade bd-example-modal-xl" id="exampleModal2" tabindex="-1" role="dialog"
-          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h2>PROJECT NAME </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-                <img src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <p>Date: January 2017</p>
-                <p>Client: Explore</p>
-                <p>Category: Graphic Design</p>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade bd-example-modal-xl" id="exampleModal3" tabindex="-1" role="dialog"
-          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h2>PROJECT NAME </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-                <img src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <p>Date: January 2017</p>
-                <p>Client: Explore</p>
-                <p>Category: Graphic Design</p>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade bd-example-modal-xl" id="exampleModal4" tabindex="-1" role="dialog"
-          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h2>PROJECT NAME </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-                <img src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <p>Date: January 2017</p>
-                <p>Client: Explore</p>
-                <p>Category: Graphic Design</p>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade bd-example-modal-xl" id="exampleModal5" tabindex="-1" role="dialog"
-          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h2>PROJECT NAME </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-                <img src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <p>Date: January 2017</p>
-                <p>Client: Explore</p>
-                <p>Category: Graphic Design</p>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal fade bd-example-modal-xl" id="exampleModal6" tabindex="-1" role="dialog"
-          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <h2>PROJECT NAME </h2>
-                <p>Lorem ipsum dolor sit amet consectetur. </p>
-                <img src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
-                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <p>Date: January 2017</p>
-                <p>Client: Explore</p>
-                <p>Category: Graphic Design</p>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div id="thread" class="col-md-4 py-4 ">
-          <div class="bg-light pb-3">
-
-            <a data-toggle="modal" data-target="#exampleModal1">
-              <div class="i">
-                <img class="img-fluid " src="img/portfolio/01-thumbnail.jpg" alt="">
-
-
-                <div class="i1 d-flex flex-column justify-content-center align-items-center text-center"><i
-                    class="fas fa-plus fa-5x "></i></div>
-              </div>
-
-            </a>
-
-
-            <h3>Threads</h3>
-            <p>Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 py-4 ">
-          <div class="bg-light pb-3">
-
-            <a data-toggle="modal" data-target="#exampleModal2">
-              <div class="i">
-                <img class="img-fluid " src="img/portfolio/02-thumbnail.jpg" alt="">
-
-
-                <div class="i1 d-flex flex-column justify-content-center align-items-center text-center"><i
-                    class="fas fa-plus fa-5x "></i></div>
-              </div>
-
-            </a>
-
-
-            <h3>Threads</h3>
-            <p>Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 py-4 ">
-          <div class="bg-light pb-3">
-
-            <a data-toggle="modal" data-target="#exampleModal3">
-              <div class="i">
-                <img class="img-fluid " src="img/portfolio/03-thumbnail.jpg" alt="">
-
-
-                <div class="i1 d-flex flex-column justify-content-center align-items-center text-center"><i
-                    class="fas fa-plus fa-5x "></i></div>
-              </div>
-
-            </a>
-
-
-            <h3>Threads</h3>
-            <p>Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 py-4 ">
-          <div class="bg-light pb-3">
-
-            <a data-toggle="modal" data-target="#exampleModal4">
-              <div class="i">
-                <img class="img-fluid " src="img/portfolio/04-thumbnail.jpg" alt="">
-
-
-                <div class="i1 d-flex flex-column justify-content-center align-items-center text-center"><i
-                    class="fas fa-plus fa-5x "></i></div>
-              </div>
-
-            </a>
-
-
-            <h3>Threads</h3>
-            <p>Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 py-4 ">
-          <div class="bg-light pb-3">
-
-            <a data-toggle="modal" data-target="#exampleModal5">
-              <div class="i">
-                <img class="img-fluid " src="img/portfolio/05-thumbnail.jpg" alt="">
-
-
-                <div class="i1 d-flex flex-column justify-content-center align-items-center text-center"><i
-                    class="fas fa-plus fa-5x "></i></div>
-              </div>
-
-            </a>
-
-
-            <h3>Threads</h3>
-            <p>Illustration</p>
-          </div>
-        </div>
-        <div class="col-md-4 py-4 ">
-          <div class="bg-light pb-3">
-
-            <a data-toggle="modal" data-target="#exampleModal6">
-              <div class="i">
-                <img class="img-fluid " src="img/portfolio/06-thumbnail.jpg" alt="">
-
-
-                <div class="i1 d-flex flex-column justify-content-center align-items-center text-center"><i
-                    class="fas fa-plus fa-5x "></i></div>
-              </div>
-
-            </a>
-
-
-            <h3>Threads</h3>
-            <p>Illustration</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div id="contact">
-    <div class="layer  d-flex flex-column justify-content-center align-items-center text-center">
-      <div class="container">
-        <h2 class="text-light">CONTACT US</h2>
-        <p class="text-light">Lorem ipsum dolor sit amet consectetur.</p>
-
-        <form>
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control form-control-lg my-3" placeholder="Your Name*">
-              <input type="text" class="form-control form-control-lg my-3" placeholder="Your Email*">
-              <input type="text" class="form-control form-control-lg my-3" placeholder="Your Phone*">
-            </div>
-            <div class="col">
-              <textarea class="form-control form-control-lg my-3" id="exampleFormControlTextarea1" rows="7"
-                placeholder="Your Message*"></textarea>
-            </div>
-          </div>
-        </form>
-
-        <button type="button" class="btn btn-warning btn-lg">SEND MESSAGE</button>
-
-      </div>
-    </div>
-  </div>
-  <footer class="py-3 p d-flex flex-column justify-content-center align-items-center text-center">
-    <p class="pt-1 ">Copyright Â© Your Website 2019</p>
-  </footer>
-  <script src="js/jquery-3.4.1.slim.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
+   
+  
 
 </body>
 
