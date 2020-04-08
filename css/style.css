@@ -1,0 +1,157 @@
+#home{
+    height: 100vh;
+    background-image: url(../img/header-bg.jpg);
+    background-size: 100% 100%;
+}
+#home .container{
+    padding-top:10px;
+}
+.navbar-light{
+    color: white;
+}
+.navbar-brand{
+    color: #fed136 !important;
+    font-size: 25px;
+}
+.nav-link{
+    color: white !important;
+    margin-left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+.nav-link:hover{
+    color: #fed136 !important;
+
+}
+.btn-warning{
+    color: white !important;
+
+}
+
+.cap{
+    padding-top: 50px !important;
+    color: white !important;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+   
+}
+.cap h1 {
+    font-size: 80px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.cap p{
+    font-size:30px ;
+}
+.imag{
+    height: 350px;
+    width:350px;
+}
+
+
+.expr{
+    text-align: center;
+}
+.l1 {position: relative;
+overflow: hidden;}
+.l1:hover .overlay1{
+bottom:5%;
+}
+.l1:hover .overlay2{
+    top: 100%;
+    }
+.overlay1{
+    height: 90% ;
+    background-color: rgba(0, 33, 71, 0.7);
+    position: absolute;
+    bottom: 100%;
+    left: 8%;
+    width: 84%;
+    color: white;
+    transition: all .8s ease 0.35s;
+
+}
+.overlay1 a{
+    color: #fed136;
+    
+}
+.overlay2 P{
+    color: #fed136;
+    font-weight: 600;
+}
+.overlay2{
+    height: 25% ;
+    background-color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    width: 84%;
+    transition: all .4s ease 0.5s;
+}
+
+
+#cat{
+    background-color: #eee;
+}
+#cat .col-md-4 h3{
+    padding-top: 10px;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    
+    
+}
+.layer{
+    background-image: url(../img/map-image.png);
+    background-size: 100% 100%;
+    height: 100%;
+}
+#contact h2{
+    font-size: 40px;
+}
+#contact p{
+font-size: 20px;
+margin: 10px 0 50px 0;
+}
+.botn{
+    background-color: #fed136;
+}
+#contact button{
+    margin-top: 40px;
+}
+.i{ 
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+.i1{
+    background-color:#fed136;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top:0;
+    opacity: 0;
+    transition: all .8s;
+    color: white;
+    cursor: pointer;
+    
+}
+#cat a:hover .i1{
+    opacity: .9;
+}
+
+input{
+            height: 3em !important;
+}
+
+
+
+  
+
